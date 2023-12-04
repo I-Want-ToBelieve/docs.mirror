@@ -1,0 +1,40 @@
+{
+  "name": "docs.mirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "bun-types": "^1.0.13",
+    "eslint": "^8.54.0",
+    "eslint-config-standard-with-typescript": "latest",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "execa": "^8.0.1",
+    "prettier": "^3.1.0",
+    "ts-standard": "^12.0.2",
+    "tsc-alias": "^1.8.8",
+    "tsup": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^13.0.7",
+    "@types/markdown-it-container": "^2.0.9",
+    "@vuepress/client": "2.0.0-rc.0",
+    "@vuepress/core": "^1.9.10",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.0",
+    "fp-ts": "^2.16.1",
+    "markdown-it-container": "^3.0.0",
+    "tsx": "^4.6.2",
+    "vue": "^3.3.9",
+    "vuepress": "2.0.0-rc.0"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "books/mostly-adequate-guide/docs"]
+	path = books/mostly-adequate-guide/docs
+	url = git@github.com:MostlyAdequate/mostly-adequate-guide.git

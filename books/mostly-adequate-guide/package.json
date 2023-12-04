@@ -1,0 +1,26 @@
+{
+  "name": "mostly-adequate-guide",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "pnpm run gen-index && vuepress dev docs --config vuepress.config.ts",
+    "docs:build": "pnpm run gen-index && vuepress build docs --config vuepress.config.ts",
+    "typecheck": "tsc",
+    "gen-index": "tsx ./scripts/gen-index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "~5.2.2"
+  },
+  "browserslist": {
+    "production": [">0.5%", "not dead", "not op_mini all"],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
